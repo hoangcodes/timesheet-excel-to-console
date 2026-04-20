@@ -1,4 +1,4 @@
-# Excel to Console - openair-timesheet-helper-code
+# timesheet helper - excel-to-console
 
 ## About
 
