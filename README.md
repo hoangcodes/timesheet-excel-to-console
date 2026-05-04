@@ -112,6 +112,12 @@ fillTimesheet();
 
 > Solution: Recommend the user not to click the copy icon and to only create new rows via the Client : Engagement dropdown. The new roles get created automatically after the user inputs a Client : Engagement.
 
+### Clicking the Copy icon
+
+> When a timesheet for 1 week on OpenAir has both months (for example, April and May), some cells will be displayed as disabled and when the script tries to write data in it throws an error.
+
+> Solution: SOLVED. Added an if-statement to the code where if input.disabled is true, then ignore the cell
+
 ### Languages and Tools:
 
 <div align='left' width=100% margin-bottom:2px>
