@@ -112,7 +112,7 @@ fillTimesheet();
 
 > Solution: Recommend the user not to click the copy icon and to only create new rows via the Client : Engagement dropdown. The new roles get created automatically after the user inputs a Client : Engagement.
 
-### Clicking the Copy icon
+### A Dual-month week
 
 > When a timesheet for 1 week on OpenAir has both months (for example, April and May), some cells will be displayed as disabled and when the script tries to write data in it throws an error.
 
